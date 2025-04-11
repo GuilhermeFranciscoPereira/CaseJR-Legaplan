@@ -1,4 +1,6 @@
 // I find how do that with 'option' in the documentation (a picture from that documentation on this readme) the link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString
+'use client';
+
 export default function SetDay(): JSX.Element {
     const newDate: Date = new Date();
     const options: Intl.DateTimeFormatOptions = {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'}
